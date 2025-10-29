@@ -22,7 +22,7 @@ public class AggregatorServiceTests
     }
 
     [Fact]
-    public async Task Should_Return_All_Results_When_No_Errors()
+    public async Task Deve_Retornar_Todos_Resultados_Quando_Nao_Houver_Erros()
     {
         // Arrange
         var services = new List<IExternalService>
@@ -43,7 +43,7 @@ public class AggregatorServiceTests
     }
 
     [Fact]
-    public async Task Should_Aggregate_Partial_Success_When_One_Service_Fails()
+    public async Task Deve_Agregar_Sucesso_Parcial_Quando_Um_Servico_Falhar()
     {
         // Arrange
         var services = new List<IExternalService>
@@ -64,7 +64,7 @@ public class AggregatorServiceTests
     }
 
     [Fact]
-    public async Task Should_Return_Only_Errors_When_All_Services_Fail()
+    public async Task Deve_Retornar_Apenas_Erros_Quando_Todos_Servicos_Falharem()
     {
         // Arrange
         var services = new List<IExternalService>
