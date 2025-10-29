@@ -1,0 +1,17 @@
+﻿global using Core.Algorithms;
+global using Core.Concurrency;
+global using Core.Design.Contracts;
+global using Core.Design.Orchestration;
+global using Core.Integration.Clients;
+global using Core.Integration.DTOs;
+global using Core.Observability.Metrics;
+global using Core.Persistence.Data;
+global using Core.Persistence.Entities;
+global using Core.Persistence.Repositories;
+global using FluentAssertions;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.Extensions.Logging;
+global using Microsoft.Extensions.Logging.Abstractions;
+global using Moq;
+global using System.Net;
+global using System.Text.Json;

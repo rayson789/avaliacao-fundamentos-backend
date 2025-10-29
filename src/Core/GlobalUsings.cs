@@ -1,0 +1,13 @@
+﻿global using Core.Design.Contracts;
+global using Core.Integration.DTOs;
+global using Core.Observability.Logging;
+global using Core.Observability.Metrics;
+global using Core.Persistence.Data;
+global using Core.Persistence.Entities;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.Extensions.Logging;
+global using Polly;
+global using Polly.Extensions.Http;
+global using System.Collections.Concurrent;
+global using System.Net.Http.Json;
+global using System.Diagnostics;
